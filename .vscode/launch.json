@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "run dev",
+        "type": "node",
+        "request": "launch",
+        "args": ["${workspaceFolder}/src/index.ts"],
+        "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+        "sourceMaps": true,
+        "cwd": "${workspaceRoot}",
+        "protocol": "inspector",
+        "env": {
+          "TS_NODE_FILES": "true"
+        }
+      }]
+  }

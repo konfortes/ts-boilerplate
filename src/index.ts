@@ -1,0 +1,3 @@
+;((): any => {
+    console.log('yo')
+})()
