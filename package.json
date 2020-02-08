@@ -4,7 +4,7 @@
   "description": "Typescript boilerplate project",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node ./dist/index.js",
+    "start": "NODE_ENV=production node ./dist/index.js",
     "start:dev": "nodemon -e ts --exec 'ts-node --files ./index.ts",
     "build": "tsc",
     "test": "npm t",
@@ -29,7 +29,6 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
-    "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.10.0",
