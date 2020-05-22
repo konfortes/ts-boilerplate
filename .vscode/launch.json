@@ -10,6 +10,9 @@
         "sourceMaps": true,
         "cwd": "${workspaceRoot}",
         "protocol": "inspector",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
         "env": {
           "TS_NODE_FILES": "true"
         }
